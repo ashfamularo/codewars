@@ -26,4 +26,14 @@ var maximumWealth = function(accounts) {
       }
   }
   return maxWealth;
-};
+}
+  
+// interesting solution i saw 
+//   const maximumWealth = (accounts) => {
+//     let res = 0;
+//     for (const a of accounts) {
+//         let sum = a.reduce((x, y) => x + y);
+//         res = Math.max(res, sum);
+//     }
+//     return res;
+// };
